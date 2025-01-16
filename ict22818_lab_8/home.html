@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+    <link href="js/skitter.css" type="text/css" media="all" rel="stylesheet" />
+
+
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.skitter.min.js"></script>
+
+    
+    
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function() {
+          $('.skitter-large').skitter({
+            responsive: {
+              small: {
+                animation: 'fade',
+                max_width: 768,
+                suffix: '-small'
+              },
+              medium: {
+                animation: 'directionRight',
+                max_width: 1024,
+                suffix: '-medium'
+              }
+            }
+          });
+        });
+    </script>
+    <link href="js/styles.css" type="text/css" media="all" rel="stylesheet" />
+    <script src="js/app.js"></script>
+
+
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-muted" href="#"><img src="1.png" alt=""width="250px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 160px;">
+              <li class="nav-item">
+                <a class="nav-link active border border-outline-info " aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="review.html">Reviews</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Movie Collection
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="english.html">English</a></li>
+                  <li><a class="dropdown-item" href="sinhala.html">Sinhala</a></li>
+                  <li><a class="dropdown-item" href="tamil.html">Tamil</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-info" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <section class="body-section">
+        <div ><img src="3.jpg" width="100%" height="100%"></div>
+        <div class=" main-cont">
+            <div class="main-cont-cent">
+                <div>
+                    <h2>Your Streaming guide<br> for movies,<br> tv shows & sports</h2>
+                </div>
+                <div>
+                    <p class="main-cont-para">Find where to stream new, pupular and upcoming entertainment with Movie Creation</p>
+                </div>
+                <div>
+                    <button class="btn btn-info">Discover Movies & TV shows</button>
+                    <button class="btn btn-info">Features</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="des-section container">
+      <div class="row justify-content-evenly des-section-con">
+          <div class="border border-primary small-sec-con" style="width:300px; margin-bottom: 20px;">
+              <div><img src="6.png" alt="" width="100%"></div>
+              <h5>ALL IN ONE PLACE</h5>
+              <h4>The complete sreaming guide</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ducimus similique praesentium earum quas dolorum corrupti odit tempora ab a odio, explicabo illum dicta eveniet porro, natus possimus, eos beatae.</p>
+              <button class="btn btn-info" style="margin: 10px 0px;"> See More..</button>              
+          </div>
+          <div class=" border border-primary small-sec-con" style="width:300px; margin-bottom: 20px;">
+              <div><img src="7.png" alt="" width="100%"></div>
+              <h5>ONE SEARCH</h5>
+              <h4>Every platform in one search</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores eius, nemo aperiam veniam, quibusdam delectus rem itaque molestias odio earum tempora eligendi? Eum impedit, modi exercitationem sit ab molestiae et?</p>
+              <button class="btn btn-info" style="margin: 10px 0px;">See More</button>              
+          </div>
+          <div class=" border border-primary small-sec-con" style="width:300px; margin-bottom: 20px;">
+              <div><img src="2.png" alt="" width="100%"></div>
+              <h5>ONE WATCHLIST</h5>
+              <h4>Combine all your watchlist</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempora nam vel. Eum nobis excepturi laudantium fugiat placeat iste animi est assumenda praesentium voluptatibus officia, voluptatem unde neque explicabo quis.</p>
+              <button class="btn btn-info" style="margin: 10px 0px;">See More</button>
+          </div>
+      </div>
+    </section>
+
+    <section class="slider-sec">
+        <div id="page">
+            <h1>
+              Browse new, popular and upcomming movies & TV shows
+              <small>Top most your favourite movies</small>
+            </h1>
+            <div id="content">
+              <div class="skitter-large-box">
+                <div class="skitter skitter-large with-dots">
+                  <ul>
+                    <li><a href="#cube"><img src="2.jpg" class="circles" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#see-more" class="btn1 btn-small btn-yellow">See more</a></p></div></li>
+                    <li><a href="#cubeRandom"><img src="3.jpg" class="circlesInside" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore officiis voluptatum reprehenderit vitae amet beatae dolorem labore dignissimos nesciunt. Harum, blanditiis suscipit beatae unde id non, necessitatibus praesentium nisi quidem. <a href="#" class="btn1 btn-small btn-yellow">See more</a></p></div></li>
+                    <li><a href="#block"><img src="4.jpg" class="circlesRotate" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="btn1 btn-small btn-yellow">See more</a></p></div></li>
+                    <li><a href="#cubeStop"><img src="5.jpg" class="cube" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eos nihil corrupti inventore id culpa repellat molestiae quam at molestias. <a href="#" class="btn1 btn-small btn-yellow">See more</a></p></div></li> 
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <p>©2024 Arclab®. All other trademarks and brand names are the property of their respective owners.</p>
+        </div>
+    </footer>
+</body>
+</html>
